@@ -338,36 +338,6 @@ img{
 .work__img:hover .work__link{
   bottom: 0;
 }
-/* ===== CASE STUDY =====*/
-.case__container{
-  row-gap: 2rem;
-}
-.case__img{
-  box-shadow: 0 4px 25px rgba(14,36,49,.15);
-  border-radius: .5rem;
-  overflow: hidden;
-}
-.case__link{
-  position: absolute;
-  bottom: -100%;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(255,255,255,.3);
-  border-radius: .5rem;
-  cursor: pointer;
-  backdrop-filter: blur(10px);
-  transition: .4s;
-}
-.case__img img{
-  transition: 1s;
-  cursor: pointer;
-}
-.case__img:hover .case__link{
-  bottom: 0;
-}
 /* ===== CONTACT =====*/
 .contact__input{
   width: 100%;
@@ -474,11 +444,6 @@ img{
     width: 300px;
   }
   .work__container{
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2,1fr);
-    column-gap: 2rem;
-  }
-  .case__container{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2,1fr);
     column-gap: 2rem;

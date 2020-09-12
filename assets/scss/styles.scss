@@ -338,26 +338,7 @@ img{
         }
     }
 }
-/* ===== CASE STUDY =====*/
-.case{
-    &__container{
-        row-gap: 2rem;
-    }
-    &__img{
-        box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15); 
-        border-radius: .5rem;
-        overflow: hidden;
-        
-        & img{
-            transition: 1s;
-            cursor: pointer;
 
-            &:hover{
-                transform: scale(1.1);
-            }
-        }
-    }
-}
 /* ===== CONTACT =====*/
 .contact{
     &__input{
@@ -480,13 +461,6 @@ img{
         }
     }
     .work{
-        &__container{
-            grid-template-columns: repeat(3,1fr);
-            grid-template-rows: repeat(2, 1fr);
-            column-gap: 2rem;
-        }
-    }
-    .case{
         &__container{
             grid-template-columns: repeat(3,1fr);
             grid-template-rows: repeat(2, 1fr);
