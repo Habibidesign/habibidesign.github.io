@@ -381,6 +381,12 @@ img{
         color: #fff;
         margin: 0 var(--mb-2);
     }
+    &__copy{
+        text-align: center;
+        font-size: var(--small-font-size);
+        color: var(--text-color-light);
+        margin-top: 3.5rem;
+    }
 }
 
 /* ===== MEDIA QUERIES=====*/
